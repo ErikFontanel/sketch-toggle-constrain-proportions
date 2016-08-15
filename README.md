@@ -4,7 +4,7 @@ A simple plugin that adds a keyboard shortcut for 'Toggle Constrain Proportions'
 
 ## How to install
 
-1. [Download the plugin](https://github.com/erikfontanel/sketch-toggleconstrainproportions/archive/master.zip)
+1. [Download the plugin](https://github.com/erikfontanel/sketch-toggle-constrain-proportions/archive/master.zip)
 2. Double click on the toggleconstrainproportions.sketchplugin file
 3. Done
 
