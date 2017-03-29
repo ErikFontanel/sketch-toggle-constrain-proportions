@@ -1,15 +1,16 @@
 {
   "name": "Toggle Constrain Proportions",
   "identifier": "com.sketchapp.toggleconstrainproportions",
-  "version": "1.0",
-  "description": "Toggles the contrain proportions setting with keyboard shortcut cmd p",
+  "version": "1.1",
+  "description": "Toggles the contrain proportions setting",
   "author": "Erik Gelderblom",
   "updateURL": "https://github.com/erikfontanel/toggleconstrainproportions/toggleconstrainproportions.json",
   "commands": [{
     "script": "script.js",
     "handler": "toggleConstrainProportions",
-    "shortcut": "cmd p",
     "name": "Toggle Constrain Proportions",
-    "identifier": "toggleconstrainproportions"
+    "identifier": "toggleconstrainproportions",
+    "description": "Toggle to (un)constrain proportions of the selected layer",
+    "icon": "icons/toggleconstraints.png",
   }]
 }
