@@ -7,7 +7,7 @@ A simple plugin that adds a keyboard shortcut for 'Toggle Constrain Proportions'
 
 With Sketch Runner, just go to the `install` command and search for `Toggle Constrain Proportions`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-![Sketch Runner screenshot](https://github.com/ErikFontanel/sketch-toggle-constrain-proportions/screenshot-installation.png?raw=true)
+![Sketch Runner screenshot](https://github.com/ErikFontanel/sketch-toggle-constrain-proportions/blob/master/screenshot-installation.png?raw=true)
 
 ## Install manually
 
