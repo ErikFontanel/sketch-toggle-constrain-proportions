@@ -11,6 +11,6 @@
     "name": "Toggle Constrain Proportions",
     "identifier": "toggleconstrainproportions",
     "description": "Toggle to (un)constrain proportions of the selected layer",
-    "icon": "icons/toggleconstraints.png",
+    "icon": "icons/toggleconstraints.png"
   }]
 }
