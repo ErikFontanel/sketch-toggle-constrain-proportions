@@ -1,22 +1,27 @@
 {
   "name": "Toggle Constrain Proportions",
+  "description": "Toggle the constrain proportions setting with your own configurable keyboard shortcut",
   "identifier": "com.sketchapp.toggleconstrainproportions",
-  "version": "1.1",
+  "version": "1.2",
+  "compatibleVersion": "45",
+  "bundleVersion": 1,
   "description": "Toggles the contrain proportions setting",
   "author": "Erik Gelderblom",
-  "updateURL": "https://github.com/erikfontanel/toggleconstrainproportions/toggleconstrainproportions.json",
+  "homepage": "https://github.com/erikfontanel/toggleconstrainproportions/",
+  "appcast": "",
   "commands": [{
     "name": "Toggle Constrain Proportions",
     "identifier": "toggleconstrainproportions",
     "script": "script.js",
     "handler": "toggleConstrainProportions",
     "description": "Toggle to (un)constrain proportions of the selected layer",
-    "icon": "icons/toggleconstraints.png",
+    "icon": "icons/toggleconstraints.png"
   }],
   "menu": {
     "isRoot": true,
     "items": [
       "toggleconstrainproportions"
     ]
-  }
+  },
+  "appcast": "https://raw.githubusercontent.com/ErikFontanel/sketch-toggle-constrain-proportions/master/appcast.xml"
 }
