@@ -9,7 +9,7 @@ function toggleConstrainProportions(context) {
   }
 
   // Refresh UI
-  doc.currentPage().deselectAllLayers()
+  doc.currentPage().changeSelectionBySelectingLayers(nil);
   selectionCount = selection.count()
   for (var i = 0; i < selection.count(); i++) {
     var layer = selection.objectAtIndex(i)
