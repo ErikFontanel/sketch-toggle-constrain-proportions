@@ -4,15 +4,16 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Toggle Constrain Proportions",
+      "identifier": "toggleconstrainproportions",
+      "script": "./toggleconstrainproportions.js"
     }
   ],
   "menu": {
-    "title": ".",
-    "items": [
-      "my-command-identifier"
-    ]
-  }
+    "title": "Toggle Constrain Proportions",
+    "isRoot": true,
+    "items": ["toggleconstrainproportions"]
+  },
+  "appcast":
+    "https://raw.githubusercontent.com/ErikFontanel/sketch-toggle-constrain-proportions/master/appcast.xml"
 }
