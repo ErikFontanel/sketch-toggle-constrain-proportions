@@ -1,7 +1,7 @@
 {
   "name": "ToggleConstrainProportions",
   "description": "Toggle the constrain proportions property of the selection with your own configurable keyboard shortcut",
-  "version": "1.2.1-0",
+  "version": "1.2.1",
   "engines": {
     "sketch": ">=3.0"
   },
