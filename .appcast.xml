@@ -6,26 +6,29 @@
     <description>Toggle the constrain proportions setting with your own configurable keyboard shortcut</description>
     <language>en</language>
     <item>
+      <enclosure url="https://github.com/ErikFontanel/sketch-toggle-constrain-proportions/releases/download/v1.2.1/plugin.sketchplugin.zip" sparkle:version="1.2.1"/>
+    </item>
+    <item>
       <title>Version 1.1</title>
       <description>
-        <![CDATA[
-          <ul>
-          <li>Added support for Sketch Runner</li>
-          <li>Removed default keyboard shortcut</li>
-          </ul>
-        ]]>
+        
+          &lt;ul&gt;
+          &lt;li&gt;Added support for Sketch Runner&lt;/li&gt;
+          &lt;li&gt;Removed default keyboard shortcut&lt;/li&gt;
+          &lt;/ul&gt;
+        
       </description>
       <enclosure url="https://github.com/ErikFontanel/sketch-toggle-constrain-proportions/archive/1.1.zip" sparkle:version="1.1"/>
     </item>
     <item>
       <title>Version 1.2</title>
       <description>
-        <![CDATA[
-          <ul>
-          <li>Added support for Sketch Plugin updates</li>
-          <li>Fixed compatibility issue with Sketch 45</li>
-          </ul>
-        ]]>
+        
+          &lt;ul&gt;
+          &lt;li&gt;Added support for Sketch Plugin updates&lt;/li&gt;
+          &lt;li&gt;Fixed compatibility issue with Sketch 45&lt;/li&gt;
+          &lt;/ul&gt;
+        
       </description>
       <enclosure url="https://github.com/ErikFontanel/sketch-toggle-constrain-proportions/archive/1.2.zip" sparkle:version="1.2"/>
     </item>
