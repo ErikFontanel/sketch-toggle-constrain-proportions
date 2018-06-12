@@ -1,0 +1,27 @@
+{
+  "name": "ToggleConstrainProportions",
+  "description": "Toggle the constrain proportions property of the selection with your own configurable keyboard shortcut",
+  "version": "1.2.1",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "ToggleConstrainProportions",
+    "manifest": "src/manifest.json",
+    "main": "plugin.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2"
+  },
+  "author": "Erik Gelderblom <hello@erikgelderblom.com>",
+  "repository": "git+https://github.com:ErikFontanel/sketch-toggle-constrain-proportions"
+}

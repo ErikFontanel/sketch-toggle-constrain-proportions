@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Toggle Constrain Proportions",
+      "identifier": "toggleconstrainproportions",
+      "script": "./toggleconstrainproportions.js"
+    }
+  ],
+  "menu": {
+    "title": "Toggle Constrain Proportions",
+    "isRoot": true,
+    "items": ["toggleconstrainproportions"]
+  },
+  "appcast":
+    "https://raw.githubusercontent.com/ErikFontanel/sketch-toggle-constrain-proportions/master/appcast.xml"
+}
