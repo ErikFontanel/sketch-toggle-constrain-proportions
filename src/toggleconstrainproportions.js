@@ -1,9 +1,8 @@
 const sketch = require('sketch/dom');
-const settings = require('sketch/settings');
 
 export default function(context) {
-  const document = sketch.fromNative(context.document);
-  const selectedLayers = document.selectedLayers;
+  const doc = sketch.fromNative(context.document);
+  const selectedLayers = doc.selectedLayers;
 
   if (selectedLayers.length > 0) {
     // Toggles the currently selected item(s) 'Constrain Proportions' setting
@@ -11,8 +10,6 @@ export default function(context) {
       let obj = layer.sketchObject;
       obj.frame().setConstrainProportions(!obj.constrainProportions());
     });
-
   }
-  // Refresh UI
   context.document.reloadInspector();
 }
